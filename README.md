@@ -13,11 +13,11 @@ A modern web application that analyzes LinkedIn profiles and generates AI-powere
 
 ## 📍 Result
 
-![Homepage](images/homepage.PNG)
+<img src="images/homepage.png" alt="Homepage Image" width="1200" height="600"><br>
 
-![input_username](images/input_username.PNG)
+<img src="images/input_username.png" alt="Input Profile Name Image" width="1200" height="600"><br>
 
-![results](images/results.PNG)
+<img src="images/results.png" alt="Results Image" width="1200" height="600">
 
 ## 🛠️ Installation
 
