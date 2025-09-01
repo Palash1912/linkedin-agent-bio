@@ -1,0 +1,8 @@
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+langchain>=0.0.350
+langchain-core>=0.1.0
+langchain-ollama>=0.1.0
+langchain-tavily>=0.1.0
+pydantic>=2.0.0
+linkedin-api>=2.0.0
