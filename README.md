@@ -11,14 +11,24 @@ A modern web application that analyzes LinkedIn profiles and generates AI-powere
 - **Export Functionality**: Download summaries as text files
 - **Mockup Mode**: Test with sample data
 
+## 📍 Result
+
+<img src="images/homepage.PNG" alt="Homepage Image" width="1200" height="600"><br>
+
+<img src="images/input_username.PNG" alt="Input Profile Name Image" width="1200" height="600"><br>
+
+<img src="images/results.PNG" alt="Results Image" width="1200" height="600">
+
 ## 🛠️ Installation
 
 1. **Install dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 2. **Set up environment variables** (create `.env` file):
+
    ```
    LINKEDIN_USER_NAME=your_linkedin_email
    LINKEDIN_USER_PASSWORD=your_linkedin_password
@@ -34,6 +44,7 @@ A modern web application that analyzes LinkedIn profiles and generates AI-powere
 ## 🚀 Usage
 
 ### Run the Streamlit App
+
 ```bash
 streamlit run streamlit_app.py
 ```
@@ -52,8 +63,9 @@ streamlit run streamlit_app.py
 5. **Download** the summary as a text file
 
 ### Example Searches
+
 - "John Smith Microsoft Seattle"
-- "Sarah Johnson Data Scientist Netflix" 
+- "Sarah Johnson Data Scientist Netflix"
 - "Mike Chen Product Manager Apple"
 
 ## 📁 Project Structure
@@ -73,12 +85,15 @@ linkedin-search-agent/
 ## 🔧 Configuration
 
 ### Sidebar Options
+
 - **Mockup Mode**: Use sample data instead of real LinkedIn API calls
 - **About Section**: Information about app features
 - **Tips**: Guidelines for better search results
 
 ### Environment Setup
+
 Make sure you have:
+
 - Valid LinkedIn credentials
 - Tavily API key for web searching
 - Ollama running locally with LLaMA 3.2
@@ -96,5 +111,3 @@ Make sure you have:
 2. **LLM errors**: Ensure Ollama is running and LLaMA 3.2 is installed
 3. **API errors**: Check your environment variables and credentials
 4. **JSON parsing errors**: Try using mockup mode first
-
-
